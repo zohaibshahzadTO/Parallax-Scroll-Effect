@@ -33,3 +33,7 @@ We'll be using jQuery for this project. So we linked it in the HTML file. We’r
 Next, we’ll create a scroll function and then we'll do an animation using requestAnimationFrame. We'll then create a for loop, capturing each parallax element in currentElement, and how much has been scrolled with scrolled.
 
 Finally, we'll multiply how much has been scrolled with a negative pixel value, and apply that to the transform: translate3D of the CSS of the individual parallax element.
+
+# Technology
+
+HTML5, CSS3, Javascript (jQuery)
