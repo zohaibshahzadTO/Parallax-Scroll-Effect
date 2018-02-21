@@ -25,3 +25,11 @@ I’m going to create a top and bottom empty section to create scroll for demons
 On the .parallax div, I edit the style attribute and add a background image.
 
 The background image will be horizontally and vertically centered in the div, cover the entire div, and not repeat.
+
+# Javascript (jQuery)
+
+We'll be using jQuery for this project. So we linked it in the HTML file. We’re going to create a variable for the parallax class, and count all instances using .length.
+
+Next, we’ll create a scroll function and then we'll do an animation using requestAnimationFrame. We'll then create a for loop, capturing each parallax element in currentElement, and how much has been scrolled with scrolled.
+
+Finally, we'll multiply how much has been scrolled with a negative pixel value, and apply that to the transform: translate3D of the CSS of the individual parallax element.
