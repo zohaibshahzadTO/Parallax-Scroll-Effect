@@ -17,3 +17,11 @@ The variable in this class is height: 200%. We have to apply a width: 100% since
 # Content
 
 All HTML layout elements have a transparent background by default. If you choose to use parallax, simply setting your background color on the body element won’t be enough anymore – you’ll have to place all of your non-parallax content inside of elements with a background color. I’m going to create a .content class that simply has a background color so that my content will always appear over the parallax image.
+
+# HTML
+
+I’m going to create a top and bottom empty section to create scroll for demonstration purposes.
+
+On the .parallax div, I edit the style attribute and add a background image.
+
+The background image will be horizontally and vertically centered in the div, cover the entire div, and not repeat.
